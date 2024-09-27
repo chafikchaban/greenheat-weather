@@ -1,0 +1,6 @@
+[submodule "greenheat-frontend"]
+	path = greenheat-frontend
+	url = git@github.com:chafikchaban/greenheat-frontend.git
+[submodule "greenheat-backend"]
+	path = greenheat-backend
+	url = git@github.com:chafikchaban/greenheat-backend.git
