@@ -5,6 +5,9 @@ services:
     ports:
       - "3000:3000"
   frontend:
-    build: ./greenheat-frontend
+    build:
+      context: ./greenheat-frontend
+      args:
+        ENVIRONMENT: docker
     ports:
       - "4200:4200"
